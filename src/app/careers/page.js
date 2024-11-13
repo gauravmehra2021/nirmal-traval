@@ -132,7 +132,7 @@ const CareersPage = () => {
                 <h3 className="text-lg font-medium text-gray-900">Vision</h3>
                 <p className="mt-2 text-base text-gray-500">
                   We envision a world where technology is used to solve the most pressing issues facing humanity
-                  and improve people's lives.
+                  and improve peoples lives.
                 </p>
               </div>
             </div>
@@ -142,7 +142,7 @@ const CareersPage = () => {
 
       <div className="max-w-4xl mx-auto px-5 mt-16">
     <div className="text-center">
-        <h2 className="font-semibold text-3xl">Features you'll love</h2>
+        <h2 className="font-semibold text-3xl">Features you ll love</h2>
         <p className="max-w-md mx-auto mt-2 text-gray-500">A responsive documentation template built for everyone who wants to create a plugin.</p>
     </div>
 
@@ -155,7 +155,7 @@ const CareersPage = () => {
             </span>
             <div>
                 <h3 className="font-semibold text-xl">Customizable</h3>
-                <p className="mt-1 text-gray-500">You don't need to be an expert to customize this plugin. Our code is very readable and well documented.</p>
+                <p className="mt-1 text-gray-500">You dot need to be an expert to customize this plugin. Our code is very readable and well documented.</p>
             </div>
         </div>
 
@@ -167,7 +167,7 @@ const CareersPage = () => {
             </span>
             <div>
                 <h3 className="font-semibold text-xl">High Quality</h3>
-                <p className="mt-1 text-gray-500">We've built this plugin with best practices in mind. This ensures performance and scalability.</p>
+                <p className="mt-1 text-gray-500">Weve built this plugin with best practices in mind. This ensures performance and scalability.</p>
             </div>
         </div>
     </div>
@@ -180,7 +180,7 @@ const CareersPage = () => {
             </span>
             <div>
                 <h3 className="font-semibold text-xl">Customizable</h3>
-                <p className="mt-1 text-gray-500">You don't need to be an expert to customize this plugin. Our code is very readable and well documented.</p>
+                <p className="mt-1 text-gray-500">You dont need to be an expert to customize this plugin. Our code is very readable and well documented.</p>
             </div>
         </div>
 
@@ -192,7 +192,7 @@ const CareersPage = () => {
             </span>
             <div>
                 <h3 className="font-semibold text-xl">High Quality</h3>
-                <p className="mt-1 text-gray-500">We've built this plugin with best practices in mind. This ensures performance and scalability.</p>
+                <p className="mt-1 text-gray-500">Weve built this plugin with best practices in mind. This ensures performance and scalability.</p>
             </div>
         </div>
     </div>
@@ -205,7 +205,7 @@ const CareersPage = () => {
             </span>
             <div>
                 <h3 className="font-semibold text-xl">Customizable</h3>
-                <p className="mt-1 text-gray-500">You don't need to be an expert to customize this plugin. Our code is very readable and well documented.</p>
+                <p className="mt-1 text-gray-500">You dont need to be an expert to customize this plugin. Our code is very readable and well documented.</p>
             </div>
         </div>
 
@@ -217,7 +217,7 @@ const CareersPage = () => {
             </span>
             <div>
                 <h3 className="font-semibold text-xl">High Quality</h3>
-                <p className="mt-1 text-gray-500">We've built this plugin with best practices in mind. This ensures performance and scalability.</p>
+                <p className="mt-1 text-gray-500">Weve built this plugin with best practices in mind. This ensures performance and scalability.</p>
             </div>
         </div>
     </div>
