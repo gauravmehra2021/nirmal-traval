@@ -22,7 +22,7 @@ const App = () => (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
             {posts.map((post, index) => (
               <div key={index} className="relative">
-                <a href={`/blog/${post.title}`} className="block overflow-hidden group rounded-xl shadow-lg">
+                <a href={`country`} className="block overflow-hidden group rounded-xl shadow-lg">
                   <img src={post.imgSrc} className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="Adventure" />
                 </a>
 
