@@ -7,6 +7,7 @@ import {
   CloudOutlined,
   CodeOutlined
 } from '@ant-design/icons';
+import { footerLinks, servicesArray } from '@/common/constant';
 
 const { Title, Text, Link } = Typography;
 
@@ -19,15 +20,15 @@ const FooterComponent = () => {
           <Col md={6} sm={24} xs={24}>
             <Title level={4} style={{ color: '#fff' }}>Ant Design Landing</Title>
             <Space direction="vertical">
-              <Link href="https://github.com/ant-design/ant-design-landing" target="_blank" style={{ color: '#ccc' }}>
-                <GithubOutlined /> GitHub Landing
-              </Link>
-              <Link href="https://github.com/ant-motion" target="_blank" style={{ color: '#ccc' }}>
-                <GithubOutlined /> Ant Motion GitHub
-              </Link>
-              <Link href="http://ant-design-landing.gitee.io/" target="_blank" style={{ color: '#ccc' }}>
-                Ant Design Gitee
-              </Link>
+
+            {footerLinks.map((ele,index)=>{
+                return(
+                  <Link href={ele?.url}  style={{ color: '#ccc' }} key={index}>
+                  <GithubOutlined /> {ele?.text}
+                </Link>
+                )
+              })}
+
             </Space>
           </Col>
 
@@ -35,18 +36,13 @@ const FooterComponent = () => {
           <Col md={6} sm={24} xs={24}>
             <Title level={4} style={{ color: '#fff' }}>Products</Title>
             <Space direction="vertical">
-              <Link href="http://ant.design" target="_blank" style={{ color: '#ccc' }}>
-                <AntDesignOutlined /> Ant Design
-              </Link>
-              <Link href="https://pro.ant.design/" target="_blank" style={{ color: '#ccc' }}>
-                <AntDesignOutlined /> Ant Design Pro
-              </Link>
-              <Link href="http://mobile.ant.design" target="_blank" style={{ color: '#ccc' }}>
-                <AntDesignOutlined /> Ant Design Mobile
-              </Link>
-              <Link href="http://motion.ant.design" target="_blank" style={{ color: '#ccc' }}>
-                Ant Motion
-              </Link>
+            {servicesArray.map((ele,index)=>{
+                return(
+                  <Link href="https://github.com/ant-design/ant-design-landing" style={{ color: '#ccc' }} key={index}>
+                  <GithubOutlined /> {ele}
+                </Link>
+                )
+              })}
             </Space>
           </Col>
 

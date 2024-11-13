@@ -27,3 +27,40 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.visas-on-time {
+  background: #001529;
+}
+.per-visas p {
+  color: rgb(78 255 34);
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.get-your-visa h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.top-logo img {
+  width: 191px;
+  object-fit: cover;
+}
+
+.visas-on-time {
+  padding-top: 14px;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .visas-on-time h2 {
+    font-size: 25px;
+
+  }
+
+
+}
