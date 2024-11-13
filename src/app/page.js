@@ -45,35 +45,35 @@ const App = () => (
             ))}
           </div>
         </div>
-        <div class="h-screen bg-gray-100 p-10">
-          <div class="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <div class="rounded-lg overflow-hidden shadow-md bg-white">
-              <div class="px-6 py-8">
-                <h3 class="text-3xl font-bold mb-4 text-purple-600">Basic</h3>
-                <p class="text-lg text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h2 class="text-5xl font-bold mb-8 text-purple-600">$19</h2>
+        <div className="h-screen bg-gray-100 p-10">
+          <div className="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="rounded-lg overflow-hidden shadow-md bg-white">
+              <div className="px-6 py-8">
+                <h3 className="text-3xl font-bold mb-4 text-purple-600">Basic</h3>
+                <p className="text-lg text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2 className="text-5xl font-bold mb-8 text-purple-600">$19</h2>
                 <a href="#"
-                  class="bg-purple-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-purple-700 transition duration-300 ease-in-out">Buy
+                  className="bg-purple-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-purple-700 transition duration-300 ease-in-out">Buy
                   Now</a>
               </div>
             </div>
-            <div class="rounded-lg overflow-hidden shadow-md bg-white">
-              <div class="px-6 py-8">
-                <h3 class="text-3xl font-bold mb-4 text-green-600">Premium</h3>
-                <p class="text-lg text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h2 class="text-5xl font-bold mb-8 text-green-600">$49</h2>
+            <div className="rounded-lg overflow-hidden shadow-md bg-white">
+              <div className="px-6 py-8">
+                <h3 className="text-3xl font-bold mb-4 text-green-600">Premium</h3>
+                <p className="text-lg text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2 className="text-5xl font-bold mb-8 text-green-600">$49</h2>
                 <a href="#"
-                  class="bg-green-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-green-700 transition duration-300 ease-in-out">Buy
+                  className="bg-green-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-green-700 transition duration-300 ease-in-out">Buy
                   Now</a>
               </div>
             </div>
-            <div class="rounded-lg overflow-hidden shadow-md bg-white">
-              <div class="px-6 py-8">
-                <h3 class="text-3xl font-bold mb-4 text-yellow-600">Pro</h3>
-                <p class="text-lg text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h2 class="text-5xl font-bold mb-8 text-yellow-600">$99</h2>
+            <div className="rounded-lg overflow-hidden shadow-md bg-white">
+              <div className="px-6 py-8">
+                <h3 className="text-3xl font-bold mb-4 text-yellow-600">Pro</h3>
+                <p className="text-lg text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2 className="text-5xl font-bold mb-8 text-yellow-600">$99</h2>
                 <a href="#"
-                  class="bg-yellow-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-yellow-700 transition duration-300 ease-in-out">Buy
+                  className="bg-yellow-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-yellow-700 transition duration-300 ease-in-out">Buy
                   Now</a>
               </div>
             </div>

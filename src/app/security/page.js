@@ -67,43 +67,43 @@ const SecurityPage = () => {
 
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:py-24 lg:px-8">
-                <section class="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
-                    <section class="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
-                        <img class="xl:max-w-6xl" src="https://images.pexels.com/photos/5990153/pexels-photo-5990153.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1860" alt="" />
-                        <div class="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5">
-                            <div class="flex justify-between font-bold text-sm">
+                <section className="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
+                    <section className="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
+                        <img className="xl:max-w-6xl" src="https://images.pexels.com/photos/5990153/pexels-photo-5990153.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1860" alt="" />
+                        <div className="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5">
+                            <div className="flex justify-between font-bold text-sm">
                                 <p>Product Review</p>
-                                <p class="text-gray-400">17th March, 2021</p>
+                                <p className="text-gray-400">17th March, 2021</p>
                             </div>
-                            <h2 class="text-3xl font-semibold mt-4 md:mt-10">Coffee From Heaven</h2>
-                            <p class="my-3 text-justify font-medium text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet
+                            <h2 className="text-3xl font-semibold mt-4 md:mt-10">Coffee From Heaven</h2>
+                            <p className="my-3 text-justify font-medium text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit. Autem aperiam nulla cupiditate saepe sed quis veritatis minus rem adipisci
                                 aliquid.</p>
-                            <button class="mt-2 md:mt-5 p-3 px-5 bg-black text-white font-bold text-sm hover:bg-purple-800">Read
+                            <button className="mt-2 md:mt-5 p-3 px-5 bg-black text-white font-bold text-sm hover:bg-purple-800">Read
                                 More</button>
                         </div>
                     </section>
                 </section>
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:py-24 lg:px-8">
-                <div class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
+                <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
 
-                    <div class="w-full h-64 lg:w-1/2 lg:h-auto">
-                        <img class="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
+                    <div className="w-full h-64 lg:w-1/2 lg:h-auto">
+                        <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
                     </div>
 
                     <div
-                        class="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12">
-                        <div class="flex flex-col p-12 md:px-16">
-                            <h2 class="text-2xl font-medium uppercase text-green-800 lg:text-4xl">Winding Mountain Road</h2>
-                            <p class="mt-4">
+                        className="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12">
+                        <div className="flex flex-col p-12 md:px-16">
+                            <h2 className="text-2xl font-medium uppercase text-green-800 lg:text-4xl">Winding Mountain Road</h2>
+                            <p className="mt-4">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                                 ex ea commodo consequat.
                             </p>
-                            <div class="mt-8">
+                            <div className="mt-8">
                                 <a href="#"
-                                    class="inline-block w-full text-center text-lg font-medium text-gray-100 bg-green-600 border-solid border-2 border-gray-600 py-4 px-10 hover:bg-green-800 hover:shadow-md md:w-48">Read
+                                    className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-green-600 border-solid border-2 border-gray-600 py-4 px-10 hover:bg-green-800 hover:shadow-md md:w-48">Read
                                     More</a>
                             </div>
                         </div>

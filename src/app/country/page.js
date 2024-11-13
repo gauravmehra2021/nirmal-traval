@@ -71,70 +71,70 @@ const Page = () => {
           </div>
         </section>
       </div>
-      <div class="bg-white">
-        <div class="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
+      <div className="bg-white">
+        <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-between">
 
-          <div class="text-center">
-            <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
+          <div className="text-center">
+            <p className="mt-4 text-sm leading-7 text-gray-500 font-regular">
               STEPS
             </p>
-            <h3 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
-              How it <span class="text-indigo-600">Works?</span>
+            <h3 className="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
+              How it <span className="text-indigo-600">Works?</span>
             </h3>
 
           </div>
 
-          <div class="mt-20">
-            <ul class="">
+          <div className="mt-20">
+            <ul className="">
 
-              <li class="text-left mb-10">
-                <div class="flex flex-row items-start">
-                  <div class="flex flex-col items-center justify-center mr-5">
+              <li className="text-left mb-10">
+                <div className="flex flex-row items-start">
+                  <div className="flex flex-col items-center justify-center mr-5">
                     <div
-                      class="flex items-center justify-center h-20 w-20 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                      className="flex items-center justify-center h-20 w-20 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
                       1
                     </div>
-                    <span class="text-gray-500">STEP</span>
+                    <span className="text-gray-500">STEP</span>
                   </div>
-                  <div class="bg-gray-100 p-5 pb-10 ">
-                    <h4 class="text-lg leading-6 font-semibold text-gray-900">Enter Headline</h4>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                  <div className="bg-gray-100 p-5 pb-10 ">
+                    <h4 className="text-lg leading-6 font-semibold text-gray-900">Enter Headline</h4>
+                    <p className="mt-2 text-base leading-6 text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
                       suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="text-left mb-10">
-                <div class="flex flex-row items-start">
-                  <div class="flex flex-col items-center justify-center mr-5">
+              <li className="text-left mb-10">
+                <div className="flex flex-row items-start">
+                  <div className="flex flex-col items-center justify-center mr-5">
                     <div
-                      class="flex items-center justify-center h-20 w-20 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                      className="flex items-center justify-center h-20 w-20 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
                       2
                     </div>
-                    <span class="text-gray-500">STEP</span>
+                    <span className="text-gray-500">STEP</span>
                   </div>
-                  <div class="bg-gray-100 p-5 pb-10 ">
-                    <h4 class="text-lg leading-6 font-semibold text-gray-900">Enter Headline</h4>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                  <div className="bg-gray-100 p-5 pb-10 ">
+                    <h4 className="text-lg leading-6 font-semibold text-gray-900">Enter Headline</h4>
+                    <p className="mt-2 text-base leading-6 text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
                       suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="text-left mb-10">
-                <div class="flex flex-row items-start">
-                  <div class="flex flex-col items-center justify-center mr-5">
+              <li className="text-left mb-10">
+                <div className="flex flex-row items-start">
+                  <div className="flex flex-col items-center justify-center mr-5">
                     <div
-                      class="flex items-center justify-center h-20 w-20 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                      className="flex items-center justify-center h-20 w-20 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
                       3
                     </div>
-                    <span class="text-gray-500">STEP</span>
+                    <span className="text-gray-500">STEP</span>
                   </div>
-                  <div class="bg-gray-100 p-5 pb-10 ">
-                    <h4 class="text-lg leading-6 font-semibold text-gray-900">Enter Headline</h4>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                  <div className="bg-gray-100 p-5 pb-10 ">
+                    <h4 className="text-lg leading-6 font-semibold text-gray-900">Enter Headline</h4>
+                    <p className="mt-2 text-base leading-6 text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
                       suscipit eaque, iste dolor cupiditate blanditiis ratione.
                     </p>
@@ -148,51 +148,51 @@ const Page = () => {
         </div>
       </div>
 
-      <section id="portfolio" class="portfolio-section py-16 px-4">
-        <div class="text-center mb-12">
-          <h2 class="text-4xl font-bold mb-4">Portfolio Showcase</h2>
-          <p class="text-lg text-indigo-500 font-semibold">Discover our latest projects and success stories</p>
+      <section id="portfolio" className="portfolio-section py-16 px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold mb-4">Portfolio Showcase</h2>
+          <p className="text-lg text-indigo-500 font-semibold">Discover our latest projects and success stories</p>
         </div>
       </section>
 
-      <div class="grid gap-8 md:grid-cols-2 lg:gap-12 p-6 md:p-10 mt-12">
+      <div className="grid gap-8 md:grid-cols-2 lg:gap-12 p-6 md:p-10 mt-12">
         <a href="#"
-          class="flex flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6">
+          className="flex flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6">
           <div
-            class="flex items-center justify-center w-16 h-16 bg-green-100 border border-green-200 rounded-full shadow-inner lg:h-20 lg:w-20">
-            <svg class="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            className="flex items-center justify-center w-16 h-16 bg-green-100 border border-green-200 rounded-full shadow-inner lg:h-20 lg:w-20">
+            <svg className="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
               </path>
             </svg>
           </div>
-          <div class="flex-1">
-            <h5 class="mb-3 text-xl font-bold lg:text-2xl">Compare Plans</h5>
-            <p class="mb-6 text-lg text-gray-600">Find out what plan is right for you</p>
-            <span class="flex items-baseline text-lg font-bold text-indigo-600">
+          <div className="flex-1">
+            <h5 className="mb-3 text-xl font-bold lg:text-2xl">Compare Plans</h5>
+            <p className="mb-6 text-lg text-gray-600">Find out what plan is right for you</p>
+            <span className="flex items-baseline text-lg font-bold text-indigo-600">
               View price comparison
-              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </span>
           </div>
         </a>
         <a href="#"
-          class="flex flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6">
+          className="flex flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6">
           <div
-            class="flex items-center justify-center w-16 h-16 bg-green-100 border border-green-200 rounded-full shadow-inner lg:h-20 lg:w-20">
-            <svg class="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            className="flex items-center justify-center w-16 h-16 bg-green-100 border border-green-200 rounded-full shadow-inner lg:h-20 lg:w-20">
+            <svg className="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
               </path>
             </svg>
           </div>
-          <div class="flex-1">
-            <h5 class="mb-3 text-xl font-bold lg:text-2xl">Need advice?</h5>
-            <p class="mb-6 text-lg text-gray-600">Find out what plan is right for you</p>
-            <span class="flex items-baseline text-lg font-bold text-indigo-600">
+          <div className="flex-1">
+            <h5 className="mb-3 text-xl font-bold lg:text-2xl">Need advice?</h5>
+            <p className="mb-6 text-lg text-gray-600">Find out what plan is right for you</p>
+            <span className="flex items-baseline text-lg font-bold text-indigo-600">
               Contact our professionals
-              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </span>
           </div>
         </a>
